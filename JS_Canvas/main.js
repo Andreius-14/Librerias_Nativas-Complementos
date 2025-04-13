@@ -13,45 +13,59 @@ document.body.appendChild(canvas);
 // Obtener el contexto 2D y dibujar
 const ctx = canvas.getContext("2d");
 
+// Escalar
+const escala = 0.5;
+ctx.scale(escala, escala);
+
 // ┌───────────────────────────────────┐
 // │         Nuestra Edicion           │
 // └───────────────────────────────────┘
+// ┌──────
+// │  => CANVAS - Dibujar Cuadros
+// └──────
+
+// --> Creando Cuadros
+// --> Podria usar un for
+ctx.fillStyle = "#335ca0";
+ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+ctx.fillStyle = "green";
+ctx.fillRect(10, 10, 100, 50);
 
 // ┌──────
 // │  => CANVAS - IMG
 // └──────
-let img = new Image();
-img.src =
-  "https://th.bing.com/th/id/OIP.ty4h_2HJDoC9LKBtB8zlOQHaE8?rs=1&pid=ImgDetMain"; // URL de la imagen
-
-// Esperar a que la imagen se cargue
-img.onload = function () {
-  // Dibujar la imagen en el canvas
-  ctx.drawImage(img, 50, 50, 400, 400); // (imagen, x, y, ancho, alto)
-};
+//let img = new Image();
+//img.src =
+//  "https://th.bing.com/th/id/OIP.ty4h_2HJDoC9LKBtB8zlOQHaE8?rs=1&pid=ImgDetMain"; // URL de la imagen
+//
+//// Esperar a que la imagen se cargue
+//img.onload = function () {
+//  // Dibujar la imagen en el canvas
+//  ctx.drawImage(img, 50, 50, 400, 400); // (imagen, x, y, ancho, alto)
+//};
 // ┌────────────────────────
 // │  => CANVAS - LINEA
 // └────────────────────────
-ctx.moveTo(5, 5); // Punto de inicio
-ctx.lineTo(200, 100); // Punto final
-ctx.stroke(); // Dibujar la línea
+//ctx.moveTo(5, 5); // Punto de inicio
+//ctx.lineTo(200, 100); // Punto final
+//ctx.stroke(); // Dibujar la línea
 
 // ┌────────────────────────
 // │  => CANVAS - TEXTO
 // └────────────────────────
-ctx.font = "30px Arial";
-ctx.fillStyle = "blue"; // Color del texto
-ctx.fillText("Hello World", 10, 50); // Texto y posición (x, y)
-
-ctx.strokeText("Hello", 20, 34);
+//ctx.font = "30px Arial";
+//ctx.fillStyle = "blue"; // Color del texto
+//ctx.fillText("Hello World", 10, 50); // Texto y posición (x, y)
+//ctx.strokeText("Hello", 20, 34);
 // ┌────────────────────────
 // │  => CANVAS - gradiente
 // └────────────────────────
 // Crear gradiente
-var grd = ctx.createLinearGradient(0, 0, 200, 0);
-grd.addColorStop(0, "red");
-grd.addColorStop(1, "white");
-
-// Rellenar con gradiente !Imprime!
-ctx.fillStyle = grd;
-ctx.fillRect(10, 10, 150, 80); // x, y //Tamaño del Red
+//var grd = ctx.createLinearGradient(0, 0, 200, 0);
+//grd.addColorStop(0, "red");
+//grd.addColorStop(1, "white");
+//
+//// Rellenar con gradiente !Imprime!
+//ctx.fillStyle = grd;
+//ctx.fillRect(10, 10, 150, 80); // x, y //Tamaño del Red

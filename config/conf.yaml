@@ -1,0 +1,8 @@
+# config.yaml
+app:
+  name: Mi Aplicación
+  port: 3000
+database:
+  host: localhost
+  user: admin
+  password: secret

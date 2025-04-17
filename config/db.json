@@ -1,0 +1,89 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "a title",
+      "views": 100
+    },
+    {
+      "id": "2",
+      "title": "another title",
+      "views": 200
+    },
+    {
+      "id": "0dae",
+      "title": "New - Axios",
+      "views": 300
+    },
+    {
+      "id": "1992",
+      "title": "Hola Mundo",
+      "views": 500
+    },
+    {
+      "id": "fbd2",
+      "title": "Hola Mundo",
+      "views": 500
+    },
+    {
+      "id": "5e2e",
+      "title": "Hola Mundo",
+      "views": 500
+    },
+    {
+      "id": "bd7c",
+      "title": "Hola Mundo",
+      "views": 500
+    },
+    {
+      "id": "3ae4",
+      "title": "Hola Mundo",
+      "views": 500
+    },
+    {
+      "id": "17a4",
+      "title": "Hola Mundo",
+      "views": 500
+    },
+    {
+      "id": "0592",
+      "title": "Hola Mundo",
+      "views": 500
+    },
+    {
+      "id": "0bec",
+      "title": "Hola Mundo",
+      "views": 500
+    },
+    {
+      "id": "271c",
+      "title": "Hola Mundo",
+      "views": 500
+    },
+    {
+      "id": "88b2",
+      "title": "Hola Mundo",
+      "views": 500
+    },
+    {
+      "id": "429b",
+      "title": "Hola Mundo",
+      "views": 500
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": "1"
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": "1"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

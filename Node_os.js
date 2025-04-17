@@ -1,5 +1,5 @@
 import os from "node:os";
-import { log, color } from "./Funciones_Compartidas.js";
+import { log, color } from "./JS-Shared/Shared.js";
 
 color("Informacion -- Sistema Operativo");
 

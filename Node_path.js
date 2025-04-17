@@ -1,5 +1,5 @@
 import path from "node:path";
-import { log, color } from "./Funciones_Compartidas.js";
+import { log, color } from "./JS-Shared/Shared.js";
 const ruta1 = "/home/carlosa/";
 const ruta2 = "termporales/";
 

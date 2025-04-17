@@ -1,4 +1,4 @@
-import { color } from "./Funciones_Compartidas.js";
+import { color } from "./JS-Shared/Shared.js";
 import fs from "node:fs/promises"; // Cambia esta línea
 
 async function archivos() {

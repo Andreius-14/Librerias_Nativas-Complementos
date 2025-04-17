@@ -1,4 +1,4 @@
-import { log, color } from "./Funciones_Compartidas.js";
+import { log, color } from "./JS-Shared/Shared.js";
 
 color("Proceso -- Objeto a JSON");
 

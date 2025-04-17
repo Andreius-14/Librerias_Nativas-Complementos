@@ -1,4 +1,4 @@
-import { log, color } from "./Funciones_Compartidas.js";
+import { log, color } from "./JS-Shared/Shared.js";
 
 color("Accion -- Crear Fechas en JavaScript");
 log(new Date()); // Fecha y hora actual

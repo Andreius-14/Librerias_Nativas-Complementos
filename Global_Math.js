@@ -1,4 +1,4 @@
-import { log, color } from "./Funciones_Compartidas.js";
+import { log, color } from "./JS-Shared/Shared.js";
 
 color("Accion -- Redondeo");
 log(Math.round(4.6)); // 5 (Redondeo normal)
